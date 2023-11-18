@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/task.dir/main.cpp.o CMakeFiles/task.dir/database/database.cpp.o CMakeFiles/task.dir/exporter/exporter.cpp.o CMakeFiles/task.dir/parser/parser.cpp.o CMakeFiles/task.dir/placement/placement.cpp.o -o task 
