@@ -1,7 +1,7 @@
 #include <iostream>
 #include "database.h"
 #include <string>
-
+#include<cmath>
 int LMap, WMap;
 int **Map;
 int NumNets, NumInstances;
@@ -10,6 +10,11 @@ Net *NetsCollection;
 
 void InitData()
 {
+    WMap=1+sqrt(NumInstances);
+    if(LMap>=NumInstances)
+    LMap=NumInstances;
+    std::cout<<WMap<<LMap<<std::endl;
+    
     Map = new int *[WMap];
     for (int i = 0; i < WMap ;i++)
     {

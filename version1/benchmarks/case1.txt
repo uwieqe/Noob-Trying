@@ -15,10 +15,13 @@ Net N1 3
 Pin C1
 Pin C2
 Pin C3
-Net N2 3
+Net N2 6
 Pin C4
 Pin C2
 Pin C5
+Pin C6
+Pin C7
+Pin C8
 Net N3 3
 Pin C1
 Pin C4
@@ -27,7 +30,10 @@ Net N4 3
 Pin C8
 Pin C2
 Pin C3
-Net N5 3
-Pin C6
+Net N5 6
+Pin C1
 Pin C2
+Pin C5
+Pin C6
+Pin C4
 Pin C7

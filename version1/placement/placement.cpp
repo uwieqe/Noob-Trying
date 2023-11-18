@@ -160,11 +160,11 @@ int Increase(int num)
         {
             if (NetsCollection[i].IDofPin[j] == num)
             {
-                if (PinCollection[NetsCollection[i].IDofPin[j]].IsMap == true && PinCollection[NetsCollection[i].IDofPin[j + 1]].IsMap == true)
+                if (PinCollection[NetsCollection[i].IDofPin[j]].IsMap == true && PinCollection[NetsCollection[i].IDofPin[j + 1]].IsMap == true&&NetsCollection[i].IDofPin[j]>NetsCollection[i].IDofPin[j+1])
                 {
                     ret += Distance(NetsCollection[i].IDofPin[j], NetsCollection[i].IDofPin[j + 1]);
                 }
-                if (PinCollection[NetsCollection[i].IDofPin[j]].IsMap == true && PinCollection[NetsCollection[i].IDofPin[j - 1]].IsMap == true)
+                if (PinCollection[NetsCollection[i].IDofPin[j]].IsMap == true && PinCollection[NetsCollection[i].IDofPin[j - 1]].IsMap == true&&NetsCollection[i].IDofPin[j]>NetsCollection[i].IDofPin[j-1])
                 {
                     ret += Distance(NetsCollection[i].IDofPin[j], NetsCollection[i].IDofPin[j - 1]);
                 }

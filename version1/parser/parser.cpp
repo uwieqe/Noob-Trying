@@ -3,7 +3,7 @@
 #include <fstream>
 #include "../database/database.h"
 
-std::string FileName = R"(../benchmarks/case0.txt)";
+std::string FileName = R"(../benchmarks/case1.txt)";
 
 void Loading()
 {
