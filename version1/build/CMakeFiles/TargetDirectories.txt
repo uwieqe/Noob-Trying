@@ -1,3 +1,0 @@
-/home/uwieiq/project/eda/version1/build/CMakeFiles/task.dir
-/home/uwieiq/project/eda/version1/build/CMakeFiles/edit_cache.dir
-/home/uwieiq/project/eda/version1/build/CMakeFiles/rebuild_cache.dir
